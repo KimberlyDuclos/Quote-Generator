@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Random Quote Generator</title>
+</head>
+<body>
+	<div class="quoteBox">
+		<div class="quoteText">
+			<i class="fa fa-quote-left fa-3x" id="leftQuote"></i><span id="quote">Click the button for your quote!</span>
+		</div><!--close quoteText-->
+		<div class="quoteAuthor">
+			<span id="author">- Me</span>
+		</div><!--close author-->
+		<div class="buttons">
+      <!--Tweet Button-->
+			<a href="#" id="tweetQuote" target="_blank" title="Tweet your quote!"><i class="fa fa-twitter-square fa-4x"></i></a> 
+      <!--Tumblr Button-->
+      <a href="#" id="tumbleQuote" target="_blank" title="Tumble this quote!"><i class="fa fa-tumblr-square fa-4x"></i></a>
+      <!--New Quote Button-->
+      <button onclick="randomQuote();randomColor()" id="quoteButton">New Quote</button>
+		</div><!--close buttons-->
+	</div><!--close quote box>-->
+</body>
+</html>
